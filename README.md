@@ -8,10 +8,13 @@ Generate a fixed width based on offset length from spec file and convert to csv 
 1. git clone the project
 2. cd Fixedwidthtocsv\src\cdparser
 3. RUN python csvconverter.py spec.json
-4. in the same directory result.csv will be generated
-5. for testing 
-        cd Fixedwidthtocsv\src
-            RUN python -m pytest tst/test_with_pytest.py
+4. A Sample fixedwidth file input.txt will be generated based on the provided spec.
+5. The Fixedwidth file will be converted to csv and saved as result.csv.
+
+
+# Steps for testing
+1. cd Fixedwidthtocsv\src
+2. RUN python -m pytest tst/test_with_pytest.py
      
 
 
