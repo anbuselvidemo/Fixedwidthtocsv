@@ -38,7 +38,6 @@ def parse_spec(spec):
 def generate_file(spec, data):
      offsets, input_encoding, output_encoding = parse_spec(spec)
      stringlen = sum(offsets)
-     print(stringlen)
      f = open('input.txt', 'w')
      lines = 10
      for _ in range(lines):
