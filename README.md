@@ -3,7 +3,7 @@ Generate a fixed width based on offset length from spec file and convert to csv 
 
 
 
-#Steps to run Fixedwidthtocsv
+# Steps to run Fixedwidthtocsv
 
 1. git clone the project
 2. cd Parserlatitude\src\cdparser
