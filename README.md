@@ -6,11 +6,11 @@ Generate a fixed width based on offset length from spec file and convert to csv 
 # Steps to run Fixedwidthtocsv
 
 1. git clone the project
-2. cd Parserlatitude\src\cdparser
+2. cd Fixedwidthtocsv\src\cdparser
 3. RUN python csvconverter.py spec.json
 4. in the same directory result.csv will be generated
 5. for testing 
-        cd Parserlatitude\src
+        cd Fixedwidthtocsv\src
             RUN python -m pytest tst/test_with_pytest.py
      
 
